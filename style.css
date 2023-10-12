@@ -1,0 +1,427 @@
+
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    color: white;
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+.blue{
+    color: #05bfdb;
+}
+body{
+    background-color: #0b192e;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vw 2.5vw 1vh;
+    position: sticky;
+    top: 0;
+    font-size: 1.5rem;
+    background-color: #0b192e;
+}
+.header-items {
+    display: flex;
+    gap: 4vw;
+}
+.header-item{
+    display: flex;
+    gap: 1vw;
+    align-self: flex-end;
+}
+
+.grey{
+    color: grey;
+}
+.dark-grey{
+    color: darkgrey;
+}
+
+.arrow{
+    color: white;
+}
+
+.learn-more{
+    background-color: #0b192e;
+    border: #05bfdb solid 0.3vh;
+    color: #05bfdb;
+    border-radius: 1vh;
+    font-size: 1.5rem;
+    padding: 1vh;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+}
+
+.home{
+    margin-top: 15vh;
+}
+
+.home-img{
+    background: url("assets/hello-img.png") no-repeat;
+}
+.img{
+    height: 31vh;
+    width: 18vw;
+    background-size: contain;
+}
+
+.name{
+    font-size: 5rem;
+    margin-top: 1.5vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.build{
+    font-size: 5rem;
+}
+
+.info{
+    font-size: 1.5rem;
+}
+
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10vw;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.line{
+    height: 20vh;
+    width: 0.5vh;
+    background-color: white;
+}
+
+.github{
+    background: url("assets/github-svgrepo-com.svg") no-repeat
+
+}
+
+.linkedin{
+    background: url("assets/linkedin-svgrepo-com.svg") no-repeat;
+}
+
+.instagram{
+    background: url("assets/instagram-svgrepo-com.svg") no-repeat;
+}
+.icon{
+    height: 7vh;
+    width: 4vw;
+    background-size: contain;
+}
+
+.twitter{
+    background: url("assets/twitter-boxed-svgrepo-com.svg") no-repeat;
+    height: 5vh;
+    width: 3vw;
+    background-size: contain;
+}
+
+.about{
+    margin-top: 30vh;
+}
+
+.about-img{
+    background: url("assets/dp-2-grey.png") no-repeat;
+    background-size: contain;
+    border-radius: 4vh;
+}
+
+.me{
+    font-size: 4rem;
+    color: #05bfdb;
+    text-decoration: underline ;
+    text-decoration-color: white ;
+    text-underline-offset: 2vh;
+}
+
+.about-content{
+    font-size: 1.4rem;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+.tech{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    align-self: center;
+    font-size: 3rem;
+}
+
+.tech-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4vw;
+}
+
+.html{
+    background: url("assets/html-5-svgrepo-com.svg") no-repeat;
+}
+
+.css {
+    background: url("assets/css-3-svgrepo-com.svg") no-repeat;
+}
+
+.js{
+    background: url("assets/js-svgrepo-com.svg") no-repeat;
+}
+
+.react{
+    background: url("assets/react-svgrepo-com.svg") no-repeat;
+}
+
+.webpack{
+    background: url("assets/webpack-svgrepo-com.svg") no-repeat;
+}
+
+.jest{
+    background: url("assets/jest-snapshot-svgrepo-com.svg") no-repeat;
+}
+
+.java{
+    background: url("assets/java-svgrepo-com.svg") no-repeat;
+}
+
+.python{
+    background: url("assets/python-svgrepo-com.svg") no-repeat;
+}
+
+.git{
+    background: url("assets/git-svgrepo-com.svg") no-repeat;
+}
+
+.zsh{
+    background: url("assets/terminal-svgrepo-com(1).svg") no-repeat;
+}
+
+.webstorm{
+    background: url("assets/webstorm-svgrepo-com.svg") no-repeat;
+}
+
+.vs{
+    background: url("assets/vs-code-svgrepo-com.svg") no-repeat;
+}
+
+.grid-item{
+    background-size: contain;
+    height: 14vh;
+    width: 8vw;
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.hobbies{
+    margin-top: 10vh;
+    margin-left: 18vw;
+}
+
+.hobby{
+    font-size: 2rem;
+
+}
+
+ul{
+    font-size: 1.5rem;
+    list-style: none;
+    color: darkgrey;
+}
+
+.projects{
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+
+.weather-img{
+    background: url("assets/weather.png") no-repeat;
+}
+
+.todo-img{
+    background: url("assets/todo-list.png") no-repeat;
+}
+
+.tic-tac-toe-img{
+    background: url("assets/tic-tac-toe.png") no-repeat;
+}
+
+.project{
+    display: flex;
+    gap: 2vh;
+}
+.writ{
+    margin-bottom: 4vh;
+}
+.project-content{
+    align-self: center;
+    font-size: 1.4rem;
+}
+.project-img{
+    background-size: contain;
+    height: 50vh;
+    width: 50vw;
+}
+.liv{
+    background: url("assets/box-arrow-up-right-svgrepo-com.svg") no-repeat;
+}
+.code{
+    background: url("assets/link-svgrepo-com.svg") no-repeat;
+}
+
+.links{
+    background-size: contain;
+    height: 3.5vh;
+    width: 2vw;
+}
+
+.my{
+    margin-bottom: 5vh;
+}
+
+.contact-img{
+    background: url("assets/connect-removebg-preview.png") no-repeat;
+    background-size: contain;
+    border-radius: 2vh;
+}
+
+.connections{
+    align-items: center;
+}
+
+.contact{
+    margin-top: 20vh;
+}
+
+.shy{
+    font-size: 4rem;
+}
+
+.dm{
+    font-size: 1.5rem;
+}
+
+.is{
+    font-size: 2rem;
+}
+
+.footer{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+@media (max-width: 1080px) {
+    body{
+        padding-right: 10vw;
+    }
+    .sidebar{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .name{
+        font-size: 3rem;
+    }
+
+    .build{
+        font-size: 3rem;
+    }
+
+    .holder{
+        height: 9vh;
+        gap: 0;
+    }
+
+    ul{
+        font-size: 1rem;
+    }
+    .me{
+        font-size: 2rem;
+        margin-left: 15vw;
+    }
+    .about-content{
+        margin-left: -10vw;
+        font-size: 1.3rem;
+    }
+    li{
+        margin: 1vh;
+    }
+    .hobby{
+        font-size: 1.3rem;
+    }
+    .hobbies{
+        margin-top: 5vh;
+    }
+    .tech{
+        font-size: 1.7rem;
+    }
+     .project{
+         display: block;
+         margin-left: 7vw;
+     }
+     .project-img{
+         width: 70vw;
+         height: 20vh;
+     }
+     .project-content{
+         font-size: 1rem;
+     }
+
+     .shy{
+         font-size: 3rem;
+     }
+
+     .connections{
+         display: flex;
+         margin-top: 4vh;
+     }
+
+     .mob-icon{
+         height: 10vh;
+         width: 10vw;
+     }
+
+
+}
+
